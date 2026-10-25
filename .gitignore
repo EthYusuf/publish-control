@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.js.map
+*.d.ts
+!src/**/*.d.ts
+.env
+.env.*
+!.env.example
+coverage/
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

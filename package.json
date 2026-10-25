@@ -1,0 +1,60 @@
+{
+  "name": "publish-control",
+  "version": "1.0.0",
+  "description": "Pre-publish code security & quality analysis MCP server for AI coding assistants (Antigravity, Cursor, Claude, Codex)",
+  "main": "dist/index.js",
+  "bin": {
+    "publish-control": "./dist/index.js"
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthYusuf/publish-control.git"
+  },
+  "author": "EthYusuf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EthYusuf/publish-control/issues"
+  },
+  "homepage": "https://github.com/EthYusuf/publish-control#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "ignore": "^7.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "security",
+    "code-analysis",
+    "static-analysis",
+    "publish-control",
+    "ai-security",
+    "cursor",
+    "claude",
+    "antigravity",
+    "codex"
+  ]
+}

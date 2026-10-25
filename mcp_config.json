@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "publish-control": {
+      "command": "node",
+      "args": ["c:/Users/yusuf/OneDrive/Desktop/publish-control/dist/index.js"],
+      "env": {}
+    }
+  }
+}
