@@ -1,6 +1,10 @@
 # 🛡️ Publish Control
 
 <p align="center">
+  <img src="assets/banner.jpg" alt="Publish Control Banner" width="100%" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/MCP-Model%20Context%20Protocol-8A2BE2?style=for-the-badge&logo=anthropic" alt="MCP Protocol" />
   <img src="https://img.shields.io/badge/TypeScript-5.6-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Node.js-%3E%3D18.0.0-green?style=for-the-badge&logo=node.js" alt="Node.js" />
